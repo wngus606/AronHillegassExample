@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA04029E1EF8DC270034FA23 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA04029D1EF8DC270034FA23 /* MapViewController.swift */; };
 		AA1F77A21EF60E89001E583C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F77A11EF60E89001E583C /* AppDelegate.swift */; };
 		AA1F77A41EF60E89001E583C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F77A31EF60E89001E583C /* ViewController.swift */; };
 		AA1F77A71EF60E89001E583C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1F77A51EF60E89001E583C /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA04029D1EF8DC270034FA23 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AA1F779E1EF60E89001E583C /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1F77A11EF60E89001E583C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA1F77A31EF60E89001E583C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				AA1F77A31EF60E89001E583C /* ViewController.swift */,
 				AA1F77A51EF60E89001E583C /* Main.storyboard */,
 				AA1F77C11EF617AB001E583C /* ConversionViewController.swift */,
+				AA04029D1EF8DC270034FA23 /* MapViewController.swift */,
 				AA1F77A81EF60E89001E583C /* Assets.xcassets */,
 				AA1F77AA1EF60E89001E583C /* LaunchScreen.storyboard */,
 				AA1F77AD1EF60E89001E583C /* Info.plist */,
@@ -207,6 +210,7 @@
 				AA1F77A41EF60E89001E583C /* ViewController.swift in Sources */,
 				AA1F77C21EF617AB001E583C /* ConversionViewController.swift in Sources */,
 				AA1F77A21EF60E89001E583C /* AppDelegate.swift in Sources */,
+				AA04029E1EF8DC270034FA23 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.seoju.WorldTrotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -366,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.seoju.WorldTrotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +424,7 @@
 				AA1F77BD1EF60E89001E583C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA1F77BE1EF60E89001E583C /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				AA1F77C01EF60E89001E583C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

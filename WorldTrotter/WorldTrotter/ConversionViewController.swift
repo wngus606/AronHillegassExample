@@ -37,6 +37,17 @@ class ConversionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("ConversionViewController loaded its view.")
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let redRandom = arc4random_uniform(256)
+        let greenRandom = arc4random_uniform(256)
+        let blueRandom = arc4random_uniform(256)
+        self.view.backgroundColor = UIColor(red: CGFloat(redRandom)/255, green: CGFloat(greenRandom)/255, blue: CGFloat(blueRandom)/255, alpha: 1.0)
     }
     
     func updateCelsiusLabel() {
