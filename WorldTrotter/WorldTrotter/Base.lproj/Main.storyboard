@@ -9,6 +9,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Item-->
+        <scene sceneID="JPw-Gv-a8t">
+            <objects>
+                <viewController id="T4t-O4-X4z" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1F5-Z0-MgH"/>
+                        <viewControllerLayoutGuide type="bottom" id="tyf-tD-iVb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hBP-LG-3Sc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="C96-XZ-bqC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Pv-VZ-Ccs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="977"/>
+        </scene>
         <!--Convert-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -96,10 +115,6 @@
         <scene sceneID="6xn-Vb-Zem">
             <objects>
                 <viewController id="FHf-hh-pER" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="aJd-Nn-h9h">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="hVU-wl-KBG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eaI-YA-4wz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -112,12 +127,14 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="jPv-Gs-BXQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Shz-OF-15q">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="mag-Gd-DZ3"/>
                         <segue destination="FHf-hh-pER" kind="relationship" relationship="viewControllers" id="oV7-UL-aBj"/>
+                        <segue destination="T4t-O4-X4z" kind="relationship" relationship="viewControllers" id="ll0-FB-bht"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F99-bq-TX4" userLabel="First Responder" sceneMemberID="firstResponder"/>

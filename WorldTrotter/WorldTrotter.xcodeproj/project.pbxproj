@@ -15,6 +15,7 @@
 		AA1F77AC1EF60E89001E583C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1F77AA1EF60E89001E583C /* LaunchScreen.storyboard */; };
 		AA1F77B71EF60E89001E583C /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F77B61EF60E89001E583C /* WorldTrotterTests.swift */; };
 		AA1F77C21EF617AB001E583C /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F77C11EF617AB001E583C /* ConversionViewController.swift */; };
+		AA5CEF911EFB6BB0002E8C2F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5CEF901EFB6BB0002E8C2F /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AA1F77B61EF60E89001E583C /* WorldTrotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterTests.swift; sourceTree = "<group>"; };
 		AA1F77B81EF60E89001E583C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1F77C11EF617AB001E583C /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		AA5CEF901EFB6BB0002E8C2F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				AA1F77A51EF60E89001E583C /* Main.storyboard */,
 				AA1F77C11EF617AB001E583C /* ConversionViewController.swift */,
 				AA04029D1EF8DC270034FA23 /* MapViewController.swift */,
+				AA5CEF901EFB6BB0002E8C2F /* WebViewController.swift */,
 				AA1F77A81EF60E89001E583C /* Assets.xcassets */,
 				AA1F77AA1EF60E89001E583C /* LaunchScreen.storyboard */,
 				AA1F77AD1EF60E89001E583C /* Info.plist */,
@@ -210,6 +213,7 @@
 				AA1F77A41EF60E89001E583C /* ViewController.swift in Sources */,
 				AA1F77C21EF617AB001E583C /* ConversionViewController.swift in Sources */,
 				AA1F77A21EF60E89001E583C /* AppDelegate.swift in Sources */,
+				AA5CEF911EFB6BB0002E8C2F /* WebViewController.swift in Sources */,
 				AA04029E1EF8DC270034FA23 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
